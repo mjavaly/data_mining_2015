@@ -10,7 +10,7 @@ import numpy
 import graphlab
 from graphlab import SFrame
 
-data = graphlab.SFrame.read_csv("50000Comments11.csv", column_type_hints=[str, int, str, int])
+data = graphlab.SFrame.read_csv("50000Comments.csv", column_type_hints=[str, int, str, int])
 data.dropna()
 
 
